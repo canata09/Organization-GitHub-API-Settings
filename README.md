@@ -1,15 +1,4 @@
-<style>
-    .sidebar {
-        width: 200px;
-        float: left;
-        margin-right: 20px;
-    }
-    .content {
-        overflow: hidden;
-    }
-</style>
-
-<div class="sidebar">
+<div style="width: 200px; float: left; margin-right: 20px;">
     <ul>
         <li><a href="#">Welcome</a></li>
     </ul>
@@ -29,7 +18,7 @@
     </ul>
 </div>
 
-<div class="content">
+<div style="overflow: hidden;">
     <h1>Welcome</h1>
     <p>Welcome to the API Starter Template! Here you'll get an overview of all the amazing features Book offers to help you build beautiful, interactive documentation.</p>
 </div>
